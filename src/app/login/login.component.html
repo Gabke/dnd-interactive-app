@@ -1,0 +1,15 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="username">Usuario</label>
+    <input type="text" class="form-control" formControlName="username">
+  </div>
+  <div class="form-group">
+    <label for="username">Email</label>
+    <input type="text" class="form-control" formControlName="email">
+  </div>
+  <div class="form-group">
+    <label for="username">Contraseña</label>
+    <input type="text" class="form-control" formControlName="password">
+  </div>
+  <button>Enviar</button>
+</form>

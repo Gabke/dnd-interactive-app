@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyBr0tr9OZyn0tUHZ029XUjs-H00jYWlyaQ",
+    authDomain: "dnd-interactive-app.firebaseapp.com",
+    databaseURL: "https://dnd-interactive-app.firebaseio.com",
+    projectId: "dnd-interactive-app",
+    storageBucket: "dnd-interactive-app.appspot.com",
+    messagingSenderId: "243673530062"
+  }
 };
 
 /*
